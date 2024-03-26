@@ -2,13 +2,13 @@ rockspec_format = "3.0"
 package = "lain"
 version = "scm-1"
 source = {
-   url = "git+https://github.com/lcpz/lain.git"
+   url = "git+https://github.com/jonathannerat/lain.git"
 }
 description = {
    summary = "Layout, widgets and utilities for Awesome WM",
    detailed = "Alternative layouts, asynchronous widgets and utility functions for Awesome WM. Non-Lua dependency: curl (for IMAP, MPD and weather widgets).",
-   homepage = "https://github.com/lcpz/lain",
-   issues_url = "https://github.com/lcpz/lain/issues",
+   homepage = "https://github.com/jonathannerat/lain",
+   issues_url = "https://github.com/jonathannerat/lain/issues",
    maintainer = "Luca Cpz",
    license = "GPL2"
 }
@@ -27,7 +27,6 @@ build = {
       ["lain.layout.centerwork"] = "layout/centerwork.lua",
       ["lain.layout.termfair"] = "layout/termfair.lua",
       ["lain.util"] = "util/init.lua",
-      -- ["lain.util.dkjson"] = "util/dkjson.lua", -- RESOLVED BY DEPENDENCY TO dkjson
       ["lain.util.markup"] = "util/markup.lua",
       ["lain.util.menu_iterator"] = "util/menu_iterator.lua",
       ["lain.util.quake"] = "util/quake.lua",
